@@ -6,11 +6,11 @@ const createUsers = (count) => {
     for (let i = 0; i < count; i++) {
         const userName = faker.person.firstName();
         const email = faker.internet.email();
-        // const userPhone = faker.phone.phoneNumber();
+        const userPhone = faker.phone.imei();
         const user = {
             userName,
             email,
-            // userPhone
+            userPhone
         }
         users.push(user)
     }
