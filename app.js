@@ -1,6 +1,8 @@
 console.log("Anna");
-const { faker } = require('@faker-js/faker')
-const lodash = require('lodash');
+import  faker  from "@faker-js/faker";
+import  lodash  from "lodash";
+// const { faker } = require('@faker-js/faker')
+// const lodash = require('lodash');
 const users = []
 const createUsers = (count) => {
     for (let i = 0; i < count; i++) {
